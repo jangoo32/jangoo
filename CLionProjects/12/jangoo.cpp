@@ -5,8 +5,12 @@ computer*/
 #include <string>
 using namespace std;
 int main(){
-    string student, section;
+    string student, section ,end;
     int id, grade;
+    int i=1;
+    do
+    {
+        i=i+1;
         cout << "Enter the student name= ";
         cin >> student;
         cout << "Enter the student id= ";
@@ -42,6 +46,12 @@ int main(){
                 break;
             default:
                 cout << "error" << endl;
-        }
+           
+        cout<<"enter anything to continue \n enter 'exit' to exit\n";
+        cin>>end;
+        if (end =="exit")
+        break;
+    }}
+     while (i>=1);
     return 0;
 }
