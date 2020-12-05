@@ -1,3 +1,6 @@
+//mohammed adam
+// class 2
+// computer
 /* starting via including input-output stream 
  * that handles read and write operations, and cstring 
  * to keep character data in a cstringData object */
